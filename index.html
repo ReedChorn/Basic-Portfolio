@@ -1,12 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <title>My Portfolio</title>
+    <link rel='stylesheet' href='styles.css'/>
+  <style>
+  
+.menu {
+    height: 100px;
+    background-color: #4aaaa5;
+    padding: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+body, html {
+    height: 120%;
+    margin: 0;
+}
+
+.sidebar {
+    float: right;                  
+    width: 255px;
+    height: 200px;
+    background-color: #ffffff;
+    margin: 15px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+.content {
+    width: 635px;                 
+    height: 520px;
+    background-color: #ffffff;
+    margin: 15px;
+    padding: 10px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+}
+
+h2.main {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+img {
+	height: 175px;
+	width: 175px;
+    float: left;
+    padding: 5px;
+}
+
+/* meant to be links, yet couldn't get them to work */
+.buttons {
+    height: 60px;
+    width: 240px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #666666;
+    text-align: center;
+    padding: 15px;
+    font-size: 4;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+}
+
+p.copyright {
+    font-size: 4;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+}
+
+.page {
+    width: 960px;
+    margin: 0 auto;
+    overflow: scroll;
+    background-color: #EAEDF0;
+}
+
+  </style>
+  </head>
+  <body>
+        <div class='menu'>
+            <h1>Reed Chorn</h1>
+        <ul>
+            <li><a class="active" href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+        </div>
+      
+        <div class='page'>
+          <div class='sidebar'>
+                <h2 class="aside">Connect with Me</h2>
+                <div class='buttons'>
+                <img class="buttons" src="http://rapadoo.com/wp-content/uploads/2017/10/top-10-social-icons-images.jpg">
+                </div>
+            </div>
+
+          <div class='content'>
+                <div>
+                        <img id="image 2" src="https://thumbs.dreamstime.com/b/asian-man-glasses-stand-street-closeup-portrait-42686791.jpg">
+                    </div>	
+                    <h2 class="main">About Me</h2>
+                <p>
+                    I was (born July 21, 1993), and live in Santa Ana. I am Cambodian and Chinese.
+                    I grew up going to schools outside my community due to better education 
+                    opportunities and was often taken care of by grandparents putting me in many different
+                    and interesting environments. From this, I was fortunate enough to make friends of many
+                    kinds, and always look forward to making more. (even if I am a bit introverted) I also
+                    have a large family and support group. 
+                </p>
+                <p>
+                    I studied Biology in college and went to UCR. I first applied in engineering for a
+                    year, until I was having trouble and lost passion in the major. After the switch to
+                    biology, I felt much more comfortable and natural. Studying programming/computers briefly
+                    occured, scattered through my life from editing HTML on Tumblr to polish my blog page to
+                    some light work involving engineering and personal dabblings. I now hope to find a fresh start
+                    at UCI and maybe even incorperating other skills such as my science background. 
+                </p>
+                <p>
+                    I tend to jump around and alternate from a number of different hobbies. 
+                    I like cooking, Netflix, and hiking. I am a big fan of eating + cooking shows, which
+                    made a natural transition towards me cooking and finding the fun in making/perfecting new meals.
+                    Being active is a big part of my life as I often go on walks and go to the gym. I also used to be
+                    in basketball and martial arts leagues emphasizing early activity as a foundation for my activity today.
+                    I've studied/am studying science and computers. I like reading online forums, T.V. show lore, and 
+                    articles on technological breakthroughs, physics and biology. 
+                    I like video games, yet mostly nintendo games as it is a big part of my childhood. 
+                    Sleep is also fun. I have a dog named Quino. I like collecting socks and fridge magnets.	
+                </p>
+
+          </div>
+        </div>
+      
+        <div class='footer'>
+                <p class="copyright">@ copyright 2018 Reed Chorn</p>
+        </div>
+      </body>
 </html>
